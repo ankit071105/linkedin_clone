@@ -13,10 +13,12 @@ dependencies:
     intl: ^0.18.1
     cupertino_icons: ^1.0.8
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
 
 flutter:
   uses-material-design: true
@@ -30,6 +32,8 @@ flutter_icons:
   image_path: assets/linkedin.png
   adaptive_icon_background: "#FFFFFF" # sets background to white
   adaptive_icon_foreground: assets/linkedin.png
+  android_adaptive_icon_background: "#FFFFFF"  # White background
+  ios_remove_alpha_icon: true
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
